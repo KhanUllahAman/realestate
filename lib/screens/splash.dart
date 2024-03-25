@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:realestateproject/screens/about.dart';
 import 'package:realestateproject/screens/homescreen.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -68,7 +69,7 @@ class SplashScreen extends StatelessWidget {
                   height: 45,
                   child: ElevatedButton(
                     onPressed: () {
-                      Get.to(HomeScreen(),
+                      Get.to(MyAbout(),
                           transition: Transition.rightToLeftWithFade);
                     },
                     style: ElevatedButton.styleFrom(
