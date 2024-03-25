@@ -59,6 +59,6 @@ class _MyAboutPageState extends State<MyAboutPage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
-    );
+    )
   }
 }
