@@ -17,7 +17,7 @@ class MyAbout extends StatelessWidget {
   }
 }
 
-class MyAboutPage extends StatefulWidget {
+class  extends StatefulWidget {
   const MyAboutPage({super.key, required this.title});
   final String title;
   @override
@@ -59,6 +59,6 @@ class _MyAboutPageState extends State<MyAboutPage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
-    )
+    );
   }
 }
