@@ -17,7 +17,7 @@ class MyAbout extends StatelessWidget {
   }
 }
 
-class  extends StatefulWidget {
+class MyAboutPage extends StatefulWidget {
   const MyAboutPage({super.key, required this.title});
   final String title;
   @override
